@@ -25,7 +25,7 @@ const HomeScreen = ({ navigation }) => {
       <FlatList
         data={products}
         keyExtractor={(item) => item.id.toString()}
-        numColumns={2} // Define duas colunas
+        numColumns={2} 
         contentContainerStyle={styles.list}
         renderItem={({ item }) => (
           <ProductCard 
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10, 
   },
   list: {
-    justifyContent: 'space-between', // Distribui os cards uniformemente
+    justifyContent: 'space-between', 
   },
   loading: {
     flex: 1,

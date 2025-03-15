@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Image, StyleSheet, ScrollView } from 'react-native';
 
 const DetailsScreen = ({ route }) => {
-  const { product } = route.params; // Certifique-se de que `route` está sendo passado
+  const { product } = route.params; 
 
   return (
     <ScrollView style={styles.scrollContainer} contentContainerStyle={styles.content}>
